@@ -1,0 +1,29 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+//ifstream fin("cube.txt");
+//#define cin fin
+
+int main()
+{
+
+	string line;
+	ifstream fin("cube.txt");
+	#define cin fin
+	while(1){
+	fin>>line;
+	cout << line << endl;
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	return 1;
+}
